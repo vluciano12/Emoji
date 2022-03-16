@@ -118,6 +118,23 @@ public class EmojiBuilder extends NonBlockingGame {
             }
         }
         setBGColor(7,8, NamedColor.black);
+        setBGColor(7,9, NamedColor.yellow);
+        
+        setBGColor(8,0, NamedColor.yellow);
+        setBGColor(8,1, NamedColor.yellow);
+        for(int row = 8; row < 9; row++){
+            for(int col = 2; col < 8; col++){
+                setBGColor(row,col, NamedColor.black);
+            }
+        }
+        setBGColor(8,8, NamedColor.yellow);
+        setBGColor(8,9, NamedColor.yellow);
+        
+        for(int row = 9; row < 10; row++){
+            for(int col = 0; col < 10; col++){
+                setBGColor(row,col, NamedColor.yellow);
+            }
+        }
     }
 
     // gameloop
